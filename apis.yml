@@ -1,8 +1,24 @@
 aid: billguard
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/billguard.png
 name: BillGuard
-description: 'BillGuard is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'BillGuard was a consumer personal-finance and transaction-security company whose mobile app
+  scanned bank and credit-card transactions for hidden fees, billing errors, grey charges, and fraud, and
+  let users flag or dispute suspicious charges. Surfaced as a portfolio company of bessemer-venture-partners
+  and added to the API Evangelist network for enrichment. The company was acquired by Prosper Marketplace
+  in 2015 and folded into the Prosper Daily app; billguard.com now 301-redirects to prosper.com and no
+  independent BillGuard developer, API, or documentation surface remains. This profile is retained as a
+  historical portfolio lead with no live API artifacts to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/billguard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,25 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Prosper Marketplace (2015); billguard.com 301-redirects to prosper.com. No live API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Personal Finance
+- Fraud Protection
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
