@@ -28,7 +28,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: acquired
 x-status-note: Acquired by Prosper Marketplace (2015); billguard.com 301-redirects to prosper.com. No live API surface.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
